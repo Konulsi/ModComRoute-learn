@@ -1,0 +1,9 @@
+:host:not(:first-of-type) {
+  /* :host bele yazdiqda komple componentde css vermek olur */
+  display: block;
+  margin-top: 20px;
+}
+
+/* :host:not(:first-of-type)
+componentimiz sehifede ilk olaraq istifade olunmursa
+yeni sehifenin yuxarisinda deyil asahidalarindadirsa gosterilen css leri ver */

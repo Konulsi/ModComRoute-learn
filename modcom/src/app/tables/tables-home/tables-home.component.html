@@ -1,0 +1,23 @@
+<app-divider> Memnuniyyet anketi </app-divider>
+<app-table></app-table>
+<br />
+<br />
+<app-divider> Extra bilgiler </app-divider>
+
+<app-tabs>
+  <a
+    routerLink="./"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    class="item"
+  >
+    Sertifikalar
+  </a>
+  <!-- ./ bele yazdiqda oldugu yerdeki routerden davam edir -->
+  <a routerLink="./companies" routerLinkActive="active" class="item">
+    Yabanci Dil Bilgisi
+  </a>
+  <a routerLink="./partners" routerLinkActive="active" class="item">
+    Mezun oldugu okul
+  </a>
+</app-tabs>
